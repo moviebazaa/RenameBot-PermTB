@@ -1,0 +1,11 @@
+---
+application:
+  name: "renamebot-permtb"
+  project: "renamer"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-renamebot-permtb"
+  routes:
+  - application_name: "renamebot-permtb"
+    paths:
+    - "/*"
